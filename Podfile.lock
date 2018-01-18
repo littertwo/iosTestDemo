@@ -1,0 +1,84 @@
+PODS:
+  - AFNetworking (3.1.0):
+    - AFNetworking/NSURLSession (= 3.1.0)
+    - AFNetworking/Reachability (= 3.1.0)
+    - AFNetworking/Security (= 3.1.0)
+    - AFNetworking/Serialization (= 3.1.0)
+    - AFNetworking/UIKit (= 3.1.0)
+  - AFNetworking/NSURLSession (3.1.0):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/Reachability (3.1.0)
+  - AFNetworking/Security (3.1.0)
+  - AFNetworking/Serialization (3.1.0)
+  - AFNetworking/UIKit (3.1.0):
+    - AFNetworking/NSURLSession
+  - Alamofire (4.4.0)
+  - FMDB (2.6.2):
+    - FMDB/standard (= 2.6.2)
+  - FMDB/standard (2.6.2)
+  - GoogleToolboxForMac/Defines (2.1.0)
+  - GoogleToolboxForMac/Logger (2.1.0):
+    - GoogleToolboxForMac/Defines (= 2.1.0)
+  - GTMSessionFetcher/Core (1.1.6)
+  - GVRSDK (1.40.0):
+    - GoogleToolboxForMac/Logger (= 2.1.0)
+    - GTMSessionFetcher/Core (= 1.1.6)
+  - HappyDNS (0.3.10)
+  - IQKeyboardManager (4.0.9)
+  - LFLiveKit (2.6)
+  - MBProgressHUD (1.0.0)
+  - MJRefresh (3.1.12)
+  - Pgyer (2.8.5)
+  - Qiniu (7.1.5):
+    - AFNetworking (~> 3)
+    - HappyDNS (~> 0.3)
+  - SDAutoLayout (2.1.8)
+  - SDWebImage (4.0.0):
+    - SDWebImage/Core (= 4.0.0)
+  - SDWebImage/Core (4.0.0)
+  - UITableView+FDTemplateLayoutCell (1.6)
+  - UMengAnalytics (4.2.4)
+  - YYModel (1.0.4)
+
+DEPENDENCIES:
+  - AFNetworking (~> 3.1.0)
+  - Alamofire
+  - FMDB (~> 2.6.2)
+  - GVRSDK
+  - IQKeyboardManager (~> 4.0.8)
+  - LFLiveKit (~> 2.6)
+  - MBProgressHUD (~> 1.0.0)
+  - MJRefresh (~> 3.1.12)
+  - Pgyer (~> 2.8.5)
+  - Qiniu (~> 7.1.5)
+  - SDAutoLayout (~> 2.1.7)
+  - SDWebImage (~> 4.0.0)
+  - UITableView+FDTemplateLayoutCell
+  - UMengAnalytics
+  - YYModel (~> 1.0.4)
+
+SPEC CHECKSUMS:
+  AFNetworking: 5e0e199f73d8626b11e79750991f5d173d1f8b67
+  Alamofire: dc44b1600b800eb63da6a19039a0083d62a6a62d
+  FMDB: 854a0341b4726e53276f2a8996f06f1b80f9259a
+  GoogleToolboxForMac: 2b2596cbb7186865e98cadf2b1e262d851c2b168
+  GTMSessionFetcher: 6aacd0ab48ddf0c3633ab2642d792abfcad1b08a
+  GVRSDK: bb909f6edca540b499b512b612375002613dbde6
+  HappyDNS: 06a9fed2796663fd87626dbf02552933265bf059
+  IQKeyboardManager: 322c7405df3eb5f7e50dede32ea937bf3d4364e0
+  LFLiveKit: 2219563721f8aa0f188effc3395a06e2d53b23f2
+  MBProgressHUD: 4890f671c94e8a0f3cf959aa731e9de2f036d71a
+  MJRefresh: b96cdb21c4aa75a7b07654311ab2f315c497e806
+  Pgyer: 69f8fba661dc99f0f5c2bba705441cc2f3cc827d
+  Qiniu: 77a3dba411556a383d72d17e842345a9d4c83252
+  SDAutoLayout: 5a4b48d6b8a5172ae8d088d2879e40dd795e6251
+  SDWebImage: 76a6348bdc74eb5a55dd08a091ef298e56b55e41
+  UITableView+FDTemplateLayoutCell: 5c949b4a5059c404b442926c0e80f81d10a2d66f
+  UMengAnalytics: ef8d45f94c0e5771dc364cf6a5731d9d3b101da2
+  YYModel: 2a7fdd96aaa4b86a824e26d0c517de8928c04b30
+
+PODFILE CHECKSUM: 7836a456444560a425be37901a318841a6cca05e
+
+COCOAPODS: 1.2.0

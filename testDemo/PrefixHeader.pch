@@ -1,0 +1,44 @@
+//
+//  PrefixHeader.pch
+//  testDemo
+//
+//  Created by XYCoder on 2017/3/22.
+//  Copyright © 2017年 XYCoder. All rights reserved.
+//
+
+#ifndef PrefixHeader_pch
+#define PrefixHeader_pch
+
+#define SCREENSIZE [UIScreen mainScreen].bounds.size
+
+#import "UIColor+Extension.h"
+#import "LxDBAnything.h"
+#import "YYModel.h"
+#import "ESWebService.h"
+#import "ESConst.h"
+#import "UIImageView+WebCache.h"
+#import <PgySDK/PgyManager.h>
+#import <UMMobClick/MobClick.h>
+#import <GVRPanoramaView.h>
+#import "AFNetworking.h"
+#import "MJRefresh.h"
+#import "NSDictionary+Extension.h"
+#import <IJKMediaFramework/IJKMediaFramework.h>
+#import "XYNetRequestClient.h"
+#import "LFLiveKit.h"
+#import "UIViewController+Base.h"
+#import "MBProgressHUD.h"
+#import "MBProgressHUD+Extension.h"
+
+#import "testDemo-Swift.h"
+
+typedef NS_ENUM(NSInteger,XYPhonesType) {
+    XYPhonesTypeFullVideos = 1,//全景视频
+    XYPhonesTypeFullImage,//全景图
+    XYPhonesTypeImage//普通图片
+};
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+
+#endif /* PrefixHeader_pch */
