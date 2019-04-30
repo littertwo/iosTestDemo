@@ -564,6 +564,7 @@
 				C48B4DCC1E80B6B8001B40CD /* Resources */,
 				D1AF4136F3EFB8EB6E9B64A6 /* [CP] Embed Pods Frameworks */,
 				1009505CF00E6469D7F0CE11 /* [CP] Copy Pods Resources */,
+				6773523422783A6700FF951F /* urlType */,
 			);
 			buildRules = (
 			);
@@ -709,6 +710,24 @@
 			shellPath = /bin/sh;
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-testDemo/Pods-testDemo-resources.sh\"\n";
 			showEnvVarsInLog = 0;
+		};
+		6773523422783A6700FF951F /* urlType */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			name = urlType;
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Type a script or drag a script file from your workspace to insert its path.\necho 当前配置参数：\necho $SC_URL_TYPE\necho $SC_URL_TYPE > ${BUILT_PRODUCTS_DIR}/${PRODUCT_NAME}.app/url_type\n";
 		};
 		88B0132F2D4345ABE4CCE257 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
